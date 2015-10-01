@@ -15,11 +15,14 @@ using namespace std;
 		return 0;
 		}
 		else if(k<ts){
-			//Aquí dentro todo lo del recorrido :P	
+			fs+=ts;
+			cout << fs;
+			return 0;
 		}
 		k-=ts;
 		if(k%2!=0){
 			cout <<ts+fs-1;
 		}
 		else cout <<v.size();
+		return 0;
 	}
