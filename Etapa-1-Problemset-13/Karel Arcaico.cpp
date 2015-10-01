@@ -15,7 +15,8 @@ using namespace std;
 		return 0;
 		}
 		else if(k<ts){
-			//Aquí dentro todo lo del recorrido :P	
+			//Aquí dentro todo lo del recorrido :P
+			//#QuePeduki
 		}
 		k-=ts;
 		if(k%2!=0){
